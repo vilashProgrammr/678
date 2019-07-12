@@ -7,6 +7,7 @@ class CheckBox extends Component {
             checked: this.props.checked
         };
     }
+    //dj
 
     handleChange(e) {
         const {checked} = e.target;
